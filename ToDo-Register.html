@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8" name="viewport" content="width=device-width initial-scale=1.0" >
+        <link rel="stylesheet" href="styles/ToDo-Register.css">
+    </head>
+    <body>
+        <div class="container">
+            <form class="register" onsubmit="RegisterUser(event)">
+                <h1 class="register-title">Register</h1>
+                <div>
+                <label>Full Name</label>
+                <input class="name" type="text" placeholder="Fullname" title="Fullname">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input class="email" type="email" placeholder="email" title="email">
+                </div>
+                <div>
+                <label>Password</label>
+                <input class="password" type="password" placeholder="Password" title="Password">
+                </div>
+                <div>
+                <button type="submit">Submit</button>
+                <a href="ToDo-Login.html" target="_self">Already Registered? Login</a>
+                </div>
+            </form>
+        </div>
+        <script src="scripts/ToDo-Register.js"></script>
+    </body>
+</html>

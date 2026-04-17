@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Welcome! Easy Do
+        </title>
+        <meta charset="UTF-8" name="viewport" content="width=device-width  intial scale=1.0">
+        <link rel="stylesheet" href="styles/ToDo-Body.css">
+    </head>
+    <body>
+        <header>
+        <div class="container">
+            <img class="logo" src="images/logo.png">
+            <h1 class="Title">Easy Do</h1>
+        </div>
+        <nav>
+            <a class="links" href="ToDo-Index.html" target="_self">Home</a>
+            <a class="links" href="ToDo-Login.html" target="_self"><button class="logout-button">Logout</button></a>
+        </nav>
+        </header>
+        <div class="title2">
+        <H1 class="heading">Welcome! <span class="nameGreet"></span> </H1>
+        </div>
+        <div class="body-todo">
+            <input type="text" placeholder="ENTER YOUR TODO" class="todo-input" title="What's on your mind">
+            <input type="date" class="todo-date">
+            <input type="time" class="todo-time">
+            <button  class="add-button js-add-button">Add</button>
+        </div>
+        <div class="filters">
+            <button onclick="setFilter('all')">All</button>
+            <button onclick="setFilter('completed')">Completed</button>
+            <button onclick="setFilter('pending')">Pending</button>
+        </div>
+        <p class="tasks-todo">--TASKS TO DO--</p>
+        <div class="js-final-todo" > 
+        </div>
+        <div class="quotecontainer">
+        <p>Quote:</p>
+        <p class="tagline"></p>
+        <button onclick="getQuote()" class="quote">New Quote</button>
+        </div>
+        <div class="weather">
+            <p>Weather:</p>
+            <p class="weather-text">Loading weather...</p>
+        </div>
+
+        
+        <script src="scripts/ToDo-Body.js"></script>
+    </body>
+</html>

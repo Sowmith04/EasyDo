@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/todo-background.jpg');
+    background-repeat: none;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    background-color: transparent;
+    height: 50px;
+    top: 0;
+}
+.Title{
+    padding-top: 5px;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 15px 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: row;   
+    gap: 10px;
+
+}
+
+.links{
+    color: white;
+    cursor: pointer;
+}
+.button-link{
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.button-link:hover{
+    background:blue;
+}
+.body-image{
+    height: 400px;
+    width: 450px;
+    position: relative;
+    bottom: 240px;
+    left: 750px
+    
+}
+
+
+.body-info{
+    position: relative;
+    top: 150px;
+    bottom: 200px;
+    left: 30px;
+}
+.sec-title{
+    font-size: 100px;
+    color: lightblue;
+}
+.info{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

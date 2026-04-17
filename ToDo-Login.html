@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Login</title>
+        <meta charset="UTF-8" name="viewport" content="width=device-width initial-scale=1.0" >
+        <link rel="stylesheet" href="styles/ToDo-Login.css">
+    </head>
+    <body>
+        <div class="container">
+            <form class="login" onsubmit="LoginUser(event)">
+                <h1 class="login-title">Login</h1>
+                <div>
+                <label>Email</label>
+                <input class="email" type="email" placeholder="Email" title="emal">
+                </div>
+                <div>
+                <label>Password</label>
+                <input class="password" type="password" placeholder="Password" title="Password">
+                </div>
+                <div>
+                <button type="submit">Submit</button>
+                <a href="ToDo-Register.html" target="_self">New User? Register</a>
+                </div>
+            </form>
+        </div>
+        <script src="scripts/ToDo-Login.js"></script>
+    </body>
+</html>
