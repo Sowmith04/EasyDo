@@ -9,7 +9,7 @@ A modern, user-friendly Todo application built using **HTML, CSS, and JavaScript
 *  Add, Edit, Delete Todos
 *  Mark tasks as Completed / Pending
 *  Filter Todos (All / Completed / Pending)
-*  Add Date and ⏰ Time to tasks
+*  Add Date and Time to tasks
 *  Dynamic Quote API integration
 *  Weather API integration
 *  Data persistence using LocalStorage
